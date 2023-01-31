@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@500;600;700&family=Space+Mono:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header h1 {
+  font-family: "Inconsolata", monospace;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #333333;
+}
+
+header {
+  margin: 2.5rem 4.75rem;
+}
+
+main div div img {
+  width: 539.22px;
+}
+
+main .container {
+  display: flex;
+  justify-content: center;
+  padding: 6.5rem 4.75rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+main .container .content-box {
+  width: 50%;
+  font-family: "Space Mono";
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+main .container .content-box .button {
+  margin-top: 4rem;
+}
+
+main .container .content-box p {
+  font-weight: 400;
+  font-size: 1.5rem;
+  width: 65%;
+  color: #4f4f4f;
+}
+
+main .container .content-box h1 {
+  font-size: 4rem;
+  color: #333333;
+  margin-bottom: 2.25rem;
+}
+
+main .container .content-box button {
+  font-size: 14px;
+  background-color: #333333;
+  color: #ffffff;
+  padding: 23px 43px;
+  border: none;
+  font-family: "Space Mono";
+  font-weight: 700;
+}
+
+footer {
+  font-family: "Montserrat";
+}
+
+footer p {
+  color: #bdbdbd;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+footer p span {
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 576px) {
+  header {
+    margin: 1.25rem 1.5rem;
+  }
+
+  main .container {
+    flex-direction: column;
+    padding: 4rem 1.5rem;
+  }
+
+  main .container .content-box {
+    width: 100%;
+  }
+
+  main .container .content-box img {
+    width: 286.83px;
+    margin: 0 auto;
+    margin-bottom: 3.75rem;
+  }
+
+  main .container .content-box h1 {
+    font-size: 3rem;
+    margin-bottom: 1.9rem;
+  }
+
+  main .container .content-box p {
+    font-size: 1.1rem;
+    width: 100%;
+  }
+}
